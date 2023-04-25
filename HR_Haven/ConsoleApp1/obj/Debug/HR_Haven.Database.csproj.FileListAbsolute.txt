@@ -1,0 +1,3 @@
+C:\Users\Isaac\source\repos\HR_Haven\ConsoleApp1\obj\Debug\HR_Haven.Database.csproj.AssemblyReference.cache
+C:\Users\Isaac\source\repos\HR_Haven\ConsoleApp1\obj\Debug\HR_Haven.Database.csproj.SuggestedBindingRedirects.cache
+C:\Users\Isaac\source\repos\HR_Haven\ConsoleApp1\obj\Debug\HR_Haven.Database.csproj.CoreCompileInputs.cache

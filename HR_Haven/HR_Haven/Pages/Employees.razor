@@ -1,0 +1,42 @@
+@page "/employees"
+@using HR_Haven.Models
+@using HR_Haven.Services
+@inject IDataService DataService
+
+<h3>Employees</h3>
+
+@if (employees == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Job Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in employees)
+            {
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.Name</td>
+                    <td>@employee.JobTitle</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Employee>? employees = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await DataService.GetEmployeesAsync();
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Isaac\\source\\repos\\HR_Haven\\HR_Haven\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HR_Haven.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HR_Haven.props",
+      "PackagePath": "build\\HR_Haven.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HR_Haven.props",
+      "PackagePath": "buildMultiTargeting\\HR_Haven.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HR_Haven.props",
+      "PackagePath": "buildTransitive\\HR_Haven.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
